@@ -1,0 +1,119 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 61%;
+    transform: translate(-50%, 0);
+    font-size: 13px;
+    color: gray;
+}
+
+.login-container {
+    background: #edf0f5;
+    height: 100%;
+    width: 100%;
+}
+
+.form-signin-container {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-signin {
+    background: white;
+    max-width: 330px;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 25px;
+}
+
+.form-signin button {
+    margin-top: 10px;
+}
+
+.form-signin-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #bbbdc1;
+    font-weight: 100;
+}
+
+.form-signin input {
+    width: 96%;
+    height: 15px;
+    padding: 10px 0 10px 10px;
+    border-radius: 3px;
+    margin: 15px 0;
+    border: 1px solid lightgray;
+}
+
+.btn {
+    background: #54acf0;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 13px;
+    transition: background-color .4s ease-out;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-block:hover {
+    background: #4e97d6;
+}
+
+input:focus, .btn:focus {
+    outline: 0;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-disabled {
+    opacity: 0.7;
+    cursor: default;
+    width: 100%;
+}
+
+.sr-only {
+    font-size: 14px;
+    color: #858585;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    outline: 0;
+}
+a, a:link, a:visited {
+    color: #0070ba;
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: none;
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    -o-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+}
+
+.forgot-credentials-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.button-spinner {
+    position: absolute;
+    left: 85%;
+    margin-left: -8px;
+    top: 74%;
+}
