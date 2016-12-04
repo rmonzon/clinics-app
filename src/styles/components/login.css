@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-.form-signin-container {
+.form-signin-container, .form-add-patient-container {
     position: fixed;
     top: 40%;
     left: 50%;
@@ -30,7 +30,7 @@
     padding: 25px;
 }
 
-.form-signin button {
+.form-signin button, .form-add-patient button {
     margin-top: 10px;
 }
 
@@ -42,7 +42,7 @@
     font-weight: 100;
 }
 
-.form-signin input {
+.form-signin input, .form-add-patient input {
     width: 96%;
     height: 15px;
     padding: 10px 0 10px 10px;

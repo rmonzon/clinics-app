@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import App from './App';
-import Login from './components/Login/Login';
-import Home from './components/Home/Home';
+import {Login, Home, AddPatient} from './components/index';
 import './styles/index.css';
 import * as firebase from "firebase";
 
@@ -22,8 +21,8 @@ ReactDOM.render(
     <Route path="/" component={App}>
       <IndexRoute component={Login} />
       <Route path="dashboard" component={Home} />
+      <Route path="add_patient" component={AddPatient} />
       {/*<Route path="register" component={Register} />*/}
-      {/*<Route path="posts/:postId" component={PostDetails} />*/}
       {/*<Route path="posts/edit/:postId" component={EditPost} />*/}
     </Route>
   </Router>,

@@ -45,20 +45,44 @@ class App extends Component {
               </div>
 
               <div className="user-profile-pic"></div>
-              <p className="text-center">Raul Rivero</p>
+              <p className="user-profile-name">Raul Rivero Monzon</p>
+              <p className="admin-account">Admin</p>
 
               <ul className="right-menu">
-                <li><Link to="">Add New Patient</Link></li>
-                <li><Link to="">List of Clinics</Link></li>
-                <li><Link to="">List of Patients</Link></li>
-                <li><Link to="">List of Clinics</Link></li>
+                <li>
+                  <Link to="add_patient">
+                    <div className="right-menu__add-icon" />
+                    Add New Patient
+                  </Link>
+                </li>
+                <li>
+                  <Link to="">
+                    <div className="right-menu__add-icon" />
+                    List of Clinics
+                  </Link>
+                </li>
+                <li>
+                  <Link to="">
+                    <div className="right-menu__add-icon" />
+                    List of Patients
+                  </Link>
+                </li>
+                <li>
+                  <Link to="">
+                    <div className="right-menu__add-icon" />
+                    List of Clinics
+                  </Link>
+                </li>
               </ul>
             </div>
 
             <div className="big-main-col">
               <div className="top-header">
-                <img alt="" />
-                <Link to="/" onClick={this.handleLogOutClick}>Log out</Link>
+                <div className="top-header__title-container"><p>{}</p></div>
+                <div className="top-menu__container">
+                  <Link to="dashboard"><div className="home top-menu__item" /></Link>
+                  <Link to="/" onClick={this.handleLogOutClick}><div className="logout top-menu__item" /></Link>
+                </div>
               </div>
 
               {this.props.children}
