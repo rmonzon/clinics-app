@@ -1,6 +1,11 @@
+.form-add-patient-container {
+    position: relative;
+    top: 10%;
+}
+
 .form-add-patient {
     background: white;
-    max-width: 65%;
+    max-width: 60%;
     margin: 0 auto;
     border-radius: 3px;
     padding: 25px;

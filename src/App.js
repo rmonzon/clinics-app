@@ -74,6 +74,8 @@ class App extends Component {
                   </Link>
                 </li>
               </ul>
+
+              <p className="copyright">&copy; 2017. All rights reserved.</p>
             </div>
 
             <div className="big-main-col">
@@ -87,8 +89,6 @@ class App extends Component {
 
               {this.props.children}
             </div>
-            <p className="copyright">&copy; 2017. All rights reserved.</p>
-
           </div>
           : this.props.children
         }

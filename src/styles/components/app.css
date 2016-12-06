@@ -8,6 +8,14 @@ body {
     font-family: Roboto;
 }
 
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    font-size: 13px;
+    color: gray;
+}
+
 .home-container {
     display: flex;
 }
@@ -144,4 +152,28 @@ ul {
 .top-header__title-container p {
     color: gray;
     text-transform: uppercase;
+}
+
+.form-row {
+    display: flex;
+    width: 100%;
+}
+
+.form-col-50 {
+    width: 50%;
+}
+
+.form-col-50-right {
+    width: 50%;
+    margin-left: 15px;
+}
+
+.form-button-container {
+    padding: 0 25%;
+}
+
+.button-spinner {
+    position: absolute;
+    right: 20px;
+    bottom: 8px;
 }
