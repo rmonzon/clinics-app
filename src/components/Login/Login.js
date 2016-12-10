@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { hashHistory } from 'react-router';
 import cx from 'classnames';
 import Helpers from '../../helpers/helpers';
+import Spinner from '../Spinner/spinner';
 // import AlertMessage from '../../components/Alert/AlertMessage'
 
 import * as firebase from "firebase";
@@ -93,7 +94,7 @@ class Login extends Component {
                 'btn-block': !this.state.checkingCredentials
               })} type="submit">
               Log in
-              {this.state.checkingCredentials ? <div className="loading button-spinner" /> : null}
+              {this.state.checkingCredentials ? <Spinner width={16} height={16} cssClass="button-spinner" /> : null}
             </button>
 
             <div className="forgot-credentials-container">

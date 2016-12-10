@@ -3,6 +3,7 @@ import { hashHistory } from 'react-router';
 import cx from 'classnames';
 
 import Helpers from '../../helpers/helpers';
+import Spinner from '../Spinner/spinner';
 import * as firebase from "firebase";
 
 class AddPatient extends Component {
@@ -142,7 +143,7 @@ class AddPatient extends Component {
                 'btn-block': !this.state.executingQuery
               })} type="submit">
               Add Patient
-              {this.state.executingQuery ? <div className="loading button-spinner" /> : null}
+              {this.state.executingQuery ? <Spinner cssClass="button-spinner" /> : null}
             </button>
           </div>
         </form>

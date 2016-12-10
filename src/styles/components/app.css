@@ -177,3 +177,52 @@ ul {
     right: 20px;
     bottom: 8px;
 }
+
+.home-body-container {
+    margin: auto 5%;
+}
+
+.table-container {
+    background: white;
+    min-height: 110px;
+    border-radius: 3px;
+    padding: 25px;
+    position: relative;
+}
+
+.table-header {
+    border: 1px solid lightgray;
+    border-radius: 3px 3px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    color: #3a3a3a;
+}
+
+.table-body {
+    border: 1px solid lightgray;
+    border-radius: 0 0 3px 3px;
+    font-size: 12px;
+    display: flex;
+    color: #8e8e8e;
+}
+
+.table-spinner {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    margin-left: -10px;
+}
+
+.table-col-header {
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid lightgray;
+    padding: 15px;
+}
+.table-col-body {
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid lightgray;
+    padding: 10px 15px;
+}
